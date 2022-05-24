@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  height: 100vh;
+}
+
+.line {
+  padding: 1px;
+  width: 50px;
+  border-bottom: 3px rgb(44, 174, 186) solid;
+}
+
+.container {
+ margin: 0 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.head {
+  font-size: 30px;
+  color: black;
+  font-weight: 100;
+}
+
+.title {
+  background-color: rgb(213, 223, 235);
+  color: rgb(93, 115, 140);
+  font-weight: 500;
+  display: inline;
+  padding: 2px 5px;
+}
+
+.roles {
+  margin-top: 10px;
+  color: black;
+  font-size: 14px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  
+}
+
+.company > button {
+  width: 200px;
+  margin: 10px auto 1px;
+  padding: 10px 5px;
+
+  border: none;
+ 
+  font-size: 14px;
+
+  cursor: pointer;
+
+  color:black;
+text-align: start;
+  background-color: transparent;
+}
+
+.company > button.active {
+ border-left: 2px solid rgb(44, 174, 186);
+ color: rgb(44, 174, 186);
+ 
+}
+.company > button.false:hover, button.active:hover {
+ border-left: 2px solid rgb(44, 174, 186);
+ color: rgb(44, 174, 186);
+ 
+}
+
+
+p {
+  font-size: 12px;
+  color: rgb(95, 111, 124);
+  margin: 7px 0px;
+}
+
+
